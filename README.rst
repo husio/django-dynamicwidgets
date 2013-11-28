@@ -42,7 +42,7 @@ might be applications `urls.py` file::
 
     urlpatterns = patterns('',
         # ...
-        url(r'^dynamicwidget/', include('dynamicwidgets.urls')),
+        url(r'^dynamicwidgets/', include('dynamicwidgets.urls')),
     )
 
 Javascript setup
@@ -56,7 +56,7 @@ widges libraries::
 
 
     {# include jQuery #}
-    <script src="{% static "dynamicwidgets/js/dynamicwidget.js" %}" type="text/javascript"></script>
+    <script src="{% static "dynamicwidgets/js/dynamicwidgets.js" %}" type="text/javascript"></script>
 
 In addition, **before** including above libraries, preferably in `<head>` tag,
 specify path to widgets view::
