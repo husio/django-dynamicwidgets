@@ -6,7 +6,7 @@ from django.conf import settings
 from django.http import HttpResponse
 from django.views.decorators.cache import never_cache
 
-from dynamicwidget import handlers, dotdict
+from dynamicwidgets import handlers, dotdict
 
 
 @never_cache

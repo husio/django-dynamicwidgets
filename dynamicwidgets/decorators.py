@@ -1,4 +1,4 @@
-from dynamicwidget import handlers
+from dynamicwidgets import handlers
 
 
 def widget_handler(rx):
